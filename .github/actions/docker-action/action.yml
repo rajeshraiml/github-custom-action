@@ -12,5 +12,7 @@ outputs:
 runs:
   using: 'docker'
   image: 'Dockerfile'
+  #using: 'docker'
+  #image: 'docker://debian:stretch-slim'
   args:
     - ${{ inputs.who-to-greet }}
