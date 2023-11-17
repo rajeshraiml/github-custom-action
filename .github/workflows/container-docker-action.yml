@@ -12,7 +12,7 @@ jobs:
 
       - name: Hello world action step
         id: hello
-        uses: ./actions/docker-action
+        uses: ./github/actions/docker-action
         with:
           who-to-greet: 'GitHub Action Learner'
       # Use the output from the `hello` step
