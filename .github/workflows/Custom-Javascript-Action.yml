@@ -1,4 +1,4 @@
-name: 01-Custom Container Action
+name: 02-Custom Javascript Action
 on:
    workflow_dispatch: 
 
@@ -12,7 +12,7 @@ jobs:
 
       - name: Hello world action step
         id: hello
-        uses: ./.github/actions/docker-action
+        uses: ./.github/actions/javascript-action
         with:
           who-to-greet: 'GitHub Action Learner'
       # Use the output from the `hello` step
