@@ -15,7 +15,8 @@ runs:
   #using: 'docker'
   #image: 'docker://debian:stretch-slim'
   branding:
-  icon: 'award'
-  color: 'green'
-  args:
-    - ${{ inputs.who-to-greet }}
+    icon: 'award'
+    color: 'green'
+    args:
+      - ${{ inputs.who-to-greet }}
+ 
