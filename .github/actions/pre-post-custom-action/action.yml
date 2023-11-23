@@ -1,0 +1,7 @@
+name: Pre and Post Script eample
+description: Custom action example
+runs:
+ using: 'node20'
+ pre: 'pre.sh'
+ main: 'index.js'
+ post: 'post.sh'
